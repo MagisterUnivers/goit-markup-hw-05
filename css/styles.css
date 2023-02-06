@@ -200,6 +200,8 @@ p {
 .site-nav__list-link:hover,
 .site-nav__list-link:focus {
   color: var(--logo-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
@@ -231,6 +233,8 @@ p {
 .header-contacts__item-link:hover,
 .header-contacts__item-link:focus {
   color: var(--logo-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -316,7 +320,8 @@ p {
   background-color: var(--logo-color);
   cursor: pointer;
   outline: 1px solid var(--headerbackground-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   /* border-color: 1px solid var(--headerbackground-color); */
 }
 
@@ -487,12 +492,14 @@ p {
 .socials__list-link:hover .socials__item-icon {
   fill: var(--headerbackground-color);
   background-color: var(--logo-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials__list-link:hover {
   background-color: var(--logo-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .userpic {
@@ -596,14 +603,16 @@ p {
 .clients__list-link:hover,
 .clients__list-link:focus {
   border-color: var(--logo-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .clients__list-link:hover .clients__item-icon,
 .clients__list-link:focus .clients__item-icon {
   fill: var(--logo-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /**
@@ -739,7 +748,8 @@ p {
 .footer__socials-link:hover,
 .footer__socials-link:focus {
   background-color: var(--logo-color);
-  transition: all 0.3s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -809,6 +819,8 @@ p {
   background-color: var(--logo-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .benefits__gallery-item:not(:last-child) {
@@ -850,7 +862,8 @@ p {
 
 .gallery-list__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
