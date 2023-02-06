@@ -437,6 +437,7 @@ p {
 .teammembers {
   background-color: var(--thethirdbgcolor);
   padding-top: 94px;
+  margin-bottom: 94px;
 }
 
 .author {
@@ -585,7 +586,7 @@ p {
 
 
 .subject.clients {
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
 }
 
