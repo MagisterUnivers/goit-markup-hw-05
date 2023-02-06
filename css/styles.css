@@ -174,7 +174,8 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--primarytext-color);
   position: relative;
 }
@@ -226,7 +227,8 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--secondarytext-color);
 }
 
@@ -261,11 +263,14 @@ p {
   /* background-color: var(--footerbackground-color); */
   margin-bottom: 94px;
   padding-bottom: 0;
-
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero\ photo\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -499,6 +504,19 @@ p {
 .socials__list-link:hover {
   background-color: var(--logo-color);
   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__list-link:focus,
+.socials__link-link:hover {
+  background-color: var(--logo-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__list-link:focus .socials__item-icon {
+  fill: var(--headerbackground-color);
+  background-color: var(--logo-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
