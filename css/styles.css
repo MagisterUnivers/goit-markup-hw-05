@@ -895,7 +895,7 @@ p {
 
 }
 
-.gallery-list__link {
+.gallery-list__item .gallery-list__link {
   text-decoration: none;
 }
 
